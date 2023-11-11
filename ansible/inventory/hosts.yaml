@@ -1,0 +1,22 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        master1:
+          ansible_user: psy
+          ansible_host: 10.10.10.151
+    worker:
+      hosts:
+        worker1:
+          ansible_user: psy
+          ansible_host: 10.10.10.152
+        worker2:
+          ansible_user: psy
+          ansible_host: 10.10.10.156
+        worker3:
+          ansible_user: psy
+          ansible_host: 10.10.10.157
+        storage:
+          ansible_user: psy
+          ansible_host: 10.10.10.158
