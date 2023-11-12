@@ -14,9 +14,3 @@ kubernetes:
         worker2:
           ansible_user: psy
           ansible_host: 10.10.10.156
-        worker3:
-          ansible_user: psy
-          ansible_host: 10.10.10.157
-        storage:
-          ansible_user: psy
-          ansible_host: 10.10.10.158
